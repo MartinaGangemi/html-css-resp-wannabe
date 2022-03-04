@@ -90,6 +90,7 @@ img {
   #lezioni>.row{
     background-color: #F2F2CD;
     margin-top: 0;
+    padding: 1rem;
   }
 
   .left>img, .right>img{
@@ -102,6 +103,28 @@ img {
   margin-top: 1rem;
 }
 
+#steps .row>.left,
+#steps .row>.central,
+#steps .row>.right {
+  width: 100%;
+  margin-top: 2rem;
+  padding: 1rem;
+}
 
+#steps>.row{
+  background-color: white;
+  margin-top: 1rem;
+}
 
+.container.grey{
+  background-color:#F2F2CD ;
+}
+
+#why>.row{
+  padding: 1rem;
+}
+
+.first>img, .second>img, .third>img{
+  max-height: 100px;
+}
 }
